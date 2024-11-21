@@ -17,7 +17,7 @@ require("./app/routes/auth.routes")(app);
 require("./app/routes/user.routes")(app);
 
 app.get("/", (req, res) => {
-    res.send("Hola");
+    res.send("Hola desde render");
 });
 
 const db = require("./app/models");
